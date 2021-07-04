@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+#list_of_questions{
+ background-color: #d2f8d2;
+}
+#list_of_questions h3{
+    color: #4CB052;
+}
+.list_of_questions_table{
+    padding:10px 30px;
+}
+.list_of_questions_table h2{
+    font-size:  30px;
+    color: #4CB052;
+    padding: 20px 0;
+}
+.list_of_questions_table table{
+border: 2px solid;  
+
+}
+
+.list_of_questions_table table tr th {
+    color: #4CB052;
+   border: 2px solid ;
+}
+   .list_of_questions_table table tr td {
+   border: 2px solid #4CB052;
+}
+
+@media screen and (max-width: 480px) {
+  .mobile_display{
+      display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mobile_display{
+      display: none;
+  }
+}
